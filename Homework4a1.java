@@ -83,8 +83,8 @@ public class Homework4a {
             //Ignore case from data entry and loop to allow to run repeatedly
             //until user enters NONE in which case it will exit the program
             if(state.equalsIgnoreCase("NONE"))
-                System.exit(0);
-            //catch entery other than exit
+                
+            //catch entry other than exit
             
             else{
                 //Print State Information held in multidimensional array
