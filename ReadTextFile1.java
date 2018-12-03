@@ -14,7 +14,7 @@ public class ReadTextFile {
     public ReadTextFile(String fileLocation){
         path = fileLocation;
     }
-    public String[] OpenFile() throws IOException {
+    public String[] openFile() throws IOException {
         
         //Start FileReader and the BufferedReader
          FileReader filereader = new FileReader(path);
